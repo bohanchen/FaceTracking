@@ -4,7 +4,6 @@
 #include "ofxOpenCv.h"
 #include "ofxCv.h"
 #include "ofxCvHaarFinder.h"
-#include "images.hpp"
 #include "Clone.h"
 using namespace ofxCv;
 using namespace cv;
@@ -58,6 +57,7 @@ class ofApp : public ofBaseApp{
     
     //load sound
     ofSoundPlayer music;
+    ofSoundPlayer chen;
     
     float * fftSmooth;
     int bands;
